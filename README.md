@@ -4,12 +4,12 @@
 This repository contains Python code that demonstrates the implementation of an Artificial Neural Network (ANN) for prediction using the Keras library. The neural network is built to predict the likelihood of a purchase being returned based on various input features. The code fetches data from a CSV file, processes it, scales the input features, constructs and trains the neural network, and finally provides predictions on a test dataset.
 Libraries Used:
 
-1. pandas: Used for data manipulation and analysis.
-2. keras: A high-level neural networks API that utilizes TensorFlow as a backend.
-3. sklearn: A machine learning library for various preprocessing tasks and model evaluation.
-4. StandardScaler from sklearn.preprocessing: Used for standardizing input features.
-5. Sequential and Dense from keras.models: Used for building the neural network architecture.
-6. train_test_split from sklearn.model_selection: Used for splitting the data into training and testing sets.
+1. **pandas**: Used for data manipulation and analysis.
+2. **keras**: A high-level neural networks API that utilizes TensorFlow as a backend.
+3. **sklearn**: A machine learning library for various preprocessing tasks and model evaluation.
+4. **StandardScaler from sklearn.preprocessing**: Used for standardizing input features.
+5. **Sequential and Dense from keras.models**: Used for building the neural network architecture.
+6. **train_test_split from sklearn.model_selection**: Used for splitting the data into training and testing sets.
 
 How to Run:
 
